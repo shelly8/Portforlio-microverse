@@ -4,6 +4,7 @@ body {
   color: #fff;
   padding: 0;
   margin: 0;
+  width: 375px;
 }
 
 /* Navigation */
@@ -23,12 +24,11 @@ body {
   top: 32px;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.nav { 
   width: 30px;
-  margin: 1em 0 0 1em;
+  position: relative;
+  top: 14px;
+  right: 8px;
 }
 
 .nav:hover div {
@@ -122,4 +122,10 @@ header p {
 
 .social-media {
   margin-left: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.social-media li {
+  margin-right: 8px;
 }
